@@ -1,6 +1,6 @@
 # ciphix
 
-Dit project bevat de volgende endpoint:
+This project has the following endpoints:__
 
-/ user text input voor sentiment analysis, met de resulterende sentiment scores
-/history een tabel met de volledige historie aan inputs ingevoerd door de user
+"/" user text input for sentiment analysis, showing the resulting sentiment scores__
+"/history" a table with the complete history of user posts__
