@@ -1,3 +1,5 @@
 django
 asent
 spacy
+dj_database_url
+psycopg2
