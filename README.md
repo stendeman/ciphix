@@ -1,5 +1,7 @@
 # ciphix
 
+This web application is deployed here: https://ciphix.onrender.com/
+
 This project has the following endpoints:
 
 "/" user text input for sentiment analysis, showing the resulting sentiment scores
