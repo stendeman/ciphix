@@ -24,7 +24,6 @@ def index(request):
 	if request.method == 'POST':
 		form = SentimentForm(request.POST)
 		if form.is_valid():
-			form.save()
 
 			# evaluate model and store the result
 			text = form.data['text']
