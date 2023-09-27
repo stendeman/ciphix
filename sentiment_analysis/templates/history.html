@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>Negative</th>
+        <th>Neutral</th>
+        <th>Positive</th>
+        <th>Confidence</th>
+        <th>Text</th>
+    </tr>
+    {% for sentiment in sentiments %}
+    <tr>
+        <td>{{sentiment.negative}}</td>
+        <td>{{sentiment.neutral}}</td>
+        <td>{{sentiment.positive}}</td>
+        <td>{{sentiment.confidence}}</td>
+        <td>{{sentiment.text}}</td>
+    </tr>
+    {% endfor %}
+</table>

@@ -1,0 +1,23 @@
+<form action="" method="post">
+	{% csrf_token %}
+	{{form}}
+	<input type="submit">
+<table>
+	<tr>
+		<td>Negative</td>
+		<td>{{sentiment.negative}}</td>
+	</tr>
+	<tr>
+		<td>Neutral</td>
+		<td>{{sentiment.neutral}}</td>
+	</tr>
+	<tr>
+		<td>Positive</td>
+		<td>{{sentiment.positive}}</td>
+	</tr>
+	<tr>
+		<td>Confidence</td>
+		<td>{{sentiment.confidence}}</td>
+	</tr>
+</table>
+</form>
